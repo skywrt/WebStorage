@@ -14,6 +14,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'xsreader/new/sources.json'
+  workflow_dispatch:
 
 jobs:
   build:
