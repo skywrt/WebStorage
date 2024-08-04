@@ -2,7 +2,7 @@ name: 香色闺阁
 
 on: 
   schedule:
-    - cron: "* * */3 * *"
+    - cron: "0 0 */3 * *"
   push:
     branches: [ "main" ]
     paths:
